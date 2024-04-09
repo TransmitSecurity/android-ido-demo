@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">IDO demo app</string>
+    <string name="title_complete">Process Complete</string>
+    <string name="recommendation">Recommendation is: </string>
+    <string name="reasons">Reasons are: </string>
+    <string name="welcome_title">Welcome to IdoDemo</string>
+    <string name="welcome_sub_title">Turn your phone into a secure e-wallet. Use it across all networks, with no data charges for Globe &amp; TM.</string>
+
+    <string name="main_journey_id">Journey id</string>
+    <string name="main_flow_id">Flow id</string>
+    <string name="main_additional_params">Additional params</string>
+    <!-- phone input form -->
+    <string name="phone_input_enter_number">Please enter your phone number</string>
+    <string name="phone_input_enter_number_hint">Phone Number</string>
+    <string name="phone_input_button_submit">Submit Number</string>
+
+    <string name="otp_input_enter_otp">Please enter your otp code</string>
+    <string name="otp_input_enter_otp_hint">OTP</string>
+    <string name="otp_input_button_submit">Submit OTP</string>
+
+    <string name="journey_success_title">Completed Successfully!</string>
+    <string name="journey_success_btn">Start over.</string>
+    <string name="journey_rejected_title">Journey rejected.</string>
+    <string name="journey_rejected_btn">Start over.</string>
+
+    <string name="kba_input_title">Please answer following questions</string>
+    <string name="kba_input_your_answer_hint">Your answer</string>
+    <string name="kba_input_button_submit_answers">Submit Answers</string>
+
+    <!-- Device Registration -->
+    <string name="crypto_bind_title">Device Registration</string>
+    <string name="crypto_bind_approve">You are about to register your device.</string>
+    <string name="crypto_bind_btn_accept">Register Device</string>
+
+    <!-- Device validation -->
+    <string name="device_validation_title">Device Validation</string>
+    <string name="device_validation_approve">You are about to validate your device.</string>
+    <string name="device_validation_btn_accept">Validate Device</string>
+
+    <!-- Debug Action -->
+    <string name="debug_title">Debug Action</string>
+    <string name="debug_text">This is debug.</string>
+    <string name="debug_btn_accept">ok</string>
+
+    <!-- Wait for ticket - cross session message -->
+    <string name="csm_title">Wait for another device</string>
+    <string name="csm_text">Ticket:</string>
+    <string name="csm_poll_btn">poll</string>
+
+    <!-- DRS -->
+    <string name="drs_title">DRS action</string>
+    <string name="drs_text">You are about to trigger DRS action: </string>
+    <string name="drs_btn">Trigger Action</string>
+
+    <!-- IDV -->
+    <string name="idv_title">Identity Verification</string>
+    <string name="idv_text">You are about to start Identity Verification process</string>
+    <string name="idv_btn">Let\'s go!</string>
+
+    <!-- WebAuthn Registration -->
+    <string name="webauthn_register_title">WebAuthn Registration</string>
+    <string name="webauthn_register_text">You are about to register to WebAuthn for user %1$s %2$s</string>
+    <string name="webauthn_register_btn">Let\'s go!</string>
+
+    <!-- Authentication -->
+    <string name="webauthn_auth_title">WebAuthn Authentication</string>
+    <string name="webauthn_auth_text">You are about to login to your account %1$s</string>
+    <string name="webauthn_auth_btn">Let\'s go!</string>
+
+    <!-- Collect user id -->
+    <string name="collect_userid_title">User id</string>
+    <string name="collect_userid_body">Please enter your user id</string>
+    <string name="collect_userid_submit">Submit</string>
+
+    <!-- Native Biometrics Registration -->
+    <string name="biometrics_register_title">Native Biometrics Registration</string>
+    <string name="biometrics_register_text">You are about to register to biometrics for user %1$s</string>
+    <string name="biometrics_register_btn">Let\'s go!</string>
+
+    <!-- Native Biometrics Authentication -->
+    <string name="biometrics_auth_title">Native Biometrics Authentication</string>
+    <string name="biometrics_auth_text">You are about to authenticate with biometrics for user %1$s</string>
+    <string name="biometrics_auth_btn">Let\'s go!</string>
+    <string name="preference_file_key">demoapp_preferences</string>
+
+    <!-- Information action -->
+    <string name="information_default_title">Information</string>
+    <string name="information_default_text">This is information text</string>
+    <string name="information_default_btn">OK</string>
+
+    <!-- Transmit Security Credentials -->
+<!--    <string name="transmit_security_client_id" translatable="false">1baw8zk3288m1orit35ojeutlqsyilqv</string>-->
+<!--    <string name="transmit_security_base_url" translatable="false">https://api.transmitsecurity.io</string>-->
+<!--    <string name="transmit_security_app_id" translatable="false">default_application</string>-->
+
+    <string name="transmit_security_client_id" translatable="false">a9gtb3c5yni9t3q4xubb1ips1tgf4bk2</string>
+    <string name="transmit_security_base_url">https://api.transmitsecurity.io</string>
+    <string name="transmit_security_app_id" translatable="false">default_application</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+<LinearLayout
+    android:id="@+id/main_ll_form_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_journey_id"
+        android:text="@string/main_journey_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"></TextView>
+    <EditText
+        android:id="@+id/et_journey_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:hint="@string/main_journey_id"
+        android:selectAllOnFocus="true" />
+    <TextView
+        android:id="@+id/tv_flow_id"
+        android:text="@string/main_flow_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"></TextView>
+    <EditText
+        android:id="@+id/et_flow_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:hint="@string/main_flow_id"
+        android:selectAllOnFocus="true" />
+    <TextView
+        android:id="@+id/tv_additional_params"
+        android:text="@string/main_additional_params"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"></TextView>
+    <EditText
+        android:id="@+id/et_additional_params"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:hint="@string/main_additional_params"
+        android:selectAllOnFocus="true" />
+    <Button
+        android:id="@+id/btn_start_journey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Journey" />
+</LinearLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
